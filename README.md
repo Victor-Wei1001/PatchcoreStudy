@@ -4,12 +4,16 @@ This repository contains my MVTec AD dataset exploration code and generated resu
 
 ## Current Work
 
+
+
 The current scripts focus on:
 
-- loading MVTec AD samples
+- loading  MVTec AD, VisA, BTAD, KolektorSDD2, and MVTec LOCO AD datasets
 - visualizing original images, ground-truth masks, overlays, and bounding boxes
 - calculating defect area from binary ground-truth masks
 - generating category-wise and sub-category-wise defect size reports
+- generating visualization figures
+- generating comparison charts for the selected five datasets
 
 ## Defect Size Calculation
 
@@ -26,4 +30,4 @@ The reports include:
 
 ## Note
 
-The original MVTec AD dataset is not included because it is large. Only scripts and generated analysis outputs are uploaded.
+The original dataset is not included because it is large. Only scripts and generated analysis outputs are uploaded.
