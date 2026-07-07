@@ -1,0 +1,393 @@
+================================================================================
+OUTPUTS FOLDER INVENTORY
+================================================================================
+Root path: D:\patchcore\outputs
+Total files: 46
+Total folders: 5
+
+================================================================================
+FOLDER TREE
+================================================================================
+D:\patchcore\outputs
+├── btad_exploration
+│   ├── btad_category_stats.csv
+│   ├── btad_defect_size_boxplot.png
+│   ├── btad_defect_size_categorywise.csv
+│   ├── btad_defect_size_categorywise_bar.png
+│   ├── btad_defect_size_defecttypewise.csv
+│   ├── btad_defect_size_per_image.csv
+│   ├── btad_image_count_stacked_bar.png
+│   ├── btad_image_files_index.csv
+│   └── btad_statistics_report.xlsx
+├── ksdd2_exploration
+│   ├── ksdd2_category_stats.csv
+│   ├── ksdd2_defect_size_boxplot.png
+│   ├── ksdd2_defect_size_categorywise.csv
+│   ├── ksdd2_defect_size_histogram.png
+│   ├── ksdd2_defect_size_per_image.csv
+│   ├── ksdd2_defect_size_splitwise.csv
+│   ├── ksdd2_defect_size_splitwise_bar.png
+│   ├── ksdd2_image_count_stacked_bar.png
+│   ├── ksdd2_image_files_index.csv
+│   ├── ksdd2_missing_masks.csv
+│   └── ksdd2_statistics_report.xlsx
+├── loco_exploration
+│   ├── loco_category_stats.csv
+│   ├── loco_defect_size_anomalytypewise.csv
+│   ├── loco_defect_size_anomalytypewise_bar.png
+│   ├── loco_defect_size_boxplot.png
+│   ├── loco_defect_size_category_anomalytypewise.csv
+│   ├── loco_defect_size_categorywise.csv
+│   ├── loco_defect_size_categorywise_bar.png
+│   ├── loco_defect_size_per_image.csv
+│   ├── loco_image_count_stacked_bar.png
+│   ├── loco_image_files_index.csv
+│   └── loco_statistics_report.xlsx
+├── MVTec AD_exploration
+│   ├── bottle_original_mask_overlay_bbox.png
+│   ├── bottle_vs_cable_5x2_bbox_overlay.png
+│   ├── defect_size_categorywise.csv
+│   ├── defect_size_categorywise_bar.png
+│   ├── defect_size_per_image.csv
+│   ├── defect_size_subcategorywise.csv
+│   ├── mvtec_ad_category_stats.csv
+│   └── mvtec_defect_size_per_image.csv
+└── visa_exploration
+    ├── visa_category_stats.csv
+    ├── visa_defect_size_boxplot.png
+    ├── visa_defect_size_categorywise.csv
+    ├── visa_defect_size_categorywise_bar.png
+    ├── visa_defect_size_per_image.csv
+    ├── visa_image_count_stacked_bar.png
+    └── visa_statistics_report.xlsx
+
+================================================================================
+FILE TYPE COUNTS
+================================================================================
+csv: 25
+image: 17
+excel: 4
+
+================================================================================
+EXTENSION COUNTS
+================================================================================
+.csv: 25
+.png: 17
+.xlsx: 4
+
+================================================================================
+TOP-LEVEL DATASET FOLDER SUMMARY
+================================================================================
+
+[btad_exploration]
+  csv: 5
+  image: 3
+  excel: 1
+
+[ksdd2_exploration]
+  csv: 6
+  image: 4
+  excel: 1
+
+[loco_exploration]
+  csv: 6
+  image: 4
+  excel: 1
+
+[MVTec AD_exploration]
+  csv: 5
+  image: 3
+
+[visa_exploration]
+  csv: 3
+  image: 3
+  excel: 1
+
+================================================================================
+LEAF DIRECTORIES
+================================================================================
+btad_exploration  | files=9
+ksdd2_exploration  | files=11
+loco_exploration  | files=11
+MVTec AD_exploration  | files=8
+visa_exploration  | files=7
+
+================================================================================
+CSV / EXCEL / IMAGE FILE DETAILS
+================================================================================
+
+File: btad_exploration\btad_category_stats.csv
+Type: csv
+Size: 175 B
+Modified: 2026-07-07 14:44:17
+Detail: rows=3, cols=7, columns=['dataset', 'category', 'train_normal', 'test_normal', 'test_anomaly', 'mask_count', 'total_original_images']
+
+File: btad_exploration\btad_defect_size_boxplot.png
+Type: image
+Size: 45.64 KB
+Modified: 2026-07-07 14:44:18
+Detail: width=1200, height=900, mode=RGBA
+
+File: btad_exploration\btad_defect_size_categorywise.csv
+Type: csv
+Size: 464 B
+Modified: 2026-07-07 14:44:17
+Detail: rows=3, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: btad_exploration\btad_defect_size_categorywise_bar.png
+Type: image
+Size: 38.49 KB
+Modified: 2026-07-07 14:44:18
+Detail: width=1200, height=900, mode=RGBA
+
+File: btad_exploration\btad_defect_size_defecttypewise.csv
+Type: csv
+Size: 485 B
+Modified: 2026-07-07 14:44:17
+Detail: rows=3, cols=8, columns=['category', 'defect_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: btad_exploration\btad_defect_size_per_image.csv
+Type: csv
+Size: 64.23 KB
+Modified: 2026-07-07 14:44:17
+Detail: rows=290, cols=13, columns=['dataset', 'category', 'defect_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: btad_exploration\btad_image_count_stacked_bar.png
+Type: image
+Size: 41.84 KB
+Modified: 2026-07-07 14:44:18
+Detail: width=1200, height=900, mode=RGBA
+
+File: btad_exploration\btad_image_files_index.csv
+Type: csv
+Size: 265.70 KB
+Modified: 2026-07-07 14:44:17
+Detail: rows=2540, cols=7, columns=['dataset', 'category', 'split', 'label', 'image_path', 'mask_path', 'has_mask']
+
+File: btad_exploration\btad_statistics_report.xlsx
+Type: excel
+Size: 90.83 KB
+Modified: 2026-07-07 14:44:19
+Detail: sheet=image_index, rows=2540, cols=7, columns=['dataset', 'category', 'split', 'label', 'image_path', 'mask_path', 'has_mask'] | sheet=category_stats, rows=3, cols=7, columns=['dataset', 'category', 'train_normal', 'test_normal', 'test_anomaly', 'mask_count', 'total_original_images'] | sheet=defect_per_image, rows=290, cols=13, columns=['dataset', 'category', 'defect_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image'] | sheet=defect_categorywise, rows=3, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image'] | sheet=defect_typewise, rows=3, cols=8, columns=['category', 'defect_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: ksdd2_exploration\ksdd2_category_stats.csv
+Type: csv
+Size: 194 B
+Modified: 2026-07-07 16:34:40
+Detail: rows=1, cols=9, columns=['dataset', 'category', 'train_normal', 'train_anomaly', 'test_normal', 'test_anomaly', 'total_original_images', 'gt_mask_file_count', 'defect_mask_count']
+
+File: ksdd2_exploration\ksdd2_defect_size_boxplot.png
+Type: image
+Size: 44.71 KB
+Modified: 2026-07-07 16:34:40
+Detail: width=1200, height=900, mode=RGBA
+
+File: ksdd2_exploration\ksdd2_defect_size_categorywise.csv
+Type: csv
+Size: 341 B
+Modified: 2026-07-07 16:34:40
+Detail: rows=1, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: ksdd2_exploration\ksdd2_defect_size_histogram.png
+Type: image
+Size: 35.95 KB
+Modified: 2026-07-07 16:34:40
+Detail: width=1200, height=900, mode=RGBA
+
+File: ksdd2_exploration\ksdd2_defect_size_per_image.csv
+Type: csv
+Size: 75.04 KB
+Modified: 2026-07-07 16:34:40
+Detail: rows=356, cols=13, columns=['dataset', 'category', 'split', 'label', 'defect_type', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: ksdd2_exploration\ksdd2_defect_size_splitwise.csv
+Type: csv
+Size: 432 B
+Modified: 2026-07-07 16:34:40
+Detail: rows=2, cols=7, columns=['split', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: ksdd2_exploration\ksdd2_defect_size_splitwise_bar.png
+Type: image
+Size: 38.62 KB
+Modified: 2026-07-07 16:34:40
+Detail: width=1200, height=900, mode=RGBA
+
+File: ksdd2_exploration\ksdd2_image_count_stacked_bar.png
+Type: image
+Size: 32.98 KB
+Modified: 2026-07-07 16:34:40
+Detail: width=1200, height=900, mode=RGBA
+
+File: ksdd2_exploration\ksdd2_image_files_index.csv
+Type: csv
+Size: 566.41 KB
+Modified: 2026-07-07 16:34:40
+Detail: rows=3335, cols=13, columns=['dataset', 'category', 'split', 'label', 'image_path', 'mask_path', 'has_mask', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: ksdd2_exploration\ksdd2_missing_masks.csv
+Type: csv
+Size: 128 B
+Modified: 2026-07-07 16:34:40
+Detail: rows=2, cols=1, columns=['image_path']
+
+File: ksdd2_exploration\ksdd2_statistics_report.xlsx
+Type: excel
+Size: 213.65 KB
+Modified: 2026-07-07 16:34:42
+Detail: sheet=image_index, rows=3335, cols=13, columns=['dataset', 'category', 'split', 'label', 'image_path', 'mask_path', 'has_mask', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image'] | sheet=category_stats, rows=1, cols=9, columns=['dataset', 'category', 'train_normal', 'train_anomaly', 'test_normal', 'test_anomaly', 'total_original_images', 'gt_mask_file_count', 'defect_mask_count'] | sheet=defect_per_image, rows=356, cols=13, columns=['dataset', 'category', 'split', 'label', 'defect_type', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image'] | sheet=defect_categorywise, rows=1, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image'] | sheet=defect_splitwise, rows=2, cols=7, columns=['split', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: loco_exploration\loco_category_stats.csv
+Type: csv
+Size: 534 B
+Modified: 2026-07-07 15:26:39
+Detail: rows=5, cols=12, columns=['dataset', 'category', 'train_normal', 'validation_normal', 'test_normal', 'test_logical_anomaly', 'test_structural_anomaly', 'logical_mask_files', 'structural_mask_files', 'matched_logical_masks', 'matched_structural_masks', 'total_original_images']
+
+File: loco_exploration\loco_defect_size_anomalytypewise.csv
+Type: csv
+Size: 452 B
+Modified: 2026-07-07 15:26:39
+Detail: rows=2, cols=7, columns=['anomaly_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: loco_exploration\loco_defect_size_anomalytypewise_bar.png
+Type: image
+Size: 53.33 KB
+Modified: 2026-07-07 15:26:40
+Detail: width=1200, height=900, mode=RGBA
+
+File: loco_exploration\loco_defect_size_boxplot.png
+Type: image
+Size: 74.73 KB
+Modified: 2026-07-07 15:26:40
+Detail: width=1800, height=900, mode=RGBA
+
+File: loco_exploration\loco_defect_size_categorywise.csv
+Type: csv
+Size: 757 B
+Modified: 2026-07-07 15:26:39
+Detail: rows=5, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: loco_exploration\loco_defect_size_categorywise_bar.png
+Type: image
+Size: 72.55 KB
+Modified: 2026-07-07 15:26:40
+Detail: width=1800, height=900, mode=RGBA
+
+File: loco_exploration\loco_defect_size_category_anomalytypewise.csv
+Type: csv
+Size: 1.45 KB
+Modified: 2026-07-07 15:26:39
+Detail: rows=10, cols=8, columns=['category', 'anomaly_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: loco_exploration\loco_defect_size_per_image.csv
+Type: csv
+Size: 305.74 KB
+Modified: 2026-07-07 15:26:39
+Detail: rows=993, cols=13, columns=['dataset', 'category', 'anomaly_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: loco_exploration\loco_image_count_stacked_bar.png
+Type: image
+Size: 84.02 KB
+Modified: 2026-07-07 15:26:39
+Detail: width=1800, height=900, mode=RGBA
+
+File: loco_exploration\loco_image_files_index.csv
+Type: csv
+Size: 599.75 KB
+Modified: 2026-07-07 15:26:39
+Detail: rows=3651, cols=8, columns=['dataset', 'category', 'split', 'label', 'anomaly_type', 'image_path', 'mask_path', 'has_mask']
+
+File: loco_exploration\loco_statistics_report.xlsx
+Type: excel
+Size: 186.30 KB
+Modified: 2026-07-07 15:26:41
+Detail: sheet=image_index, rows=3651, cols=8, columns=['dataset', 'category', 'split', 'label', 'anomaly_type', 'image_path', 'mask_path', 'has_mask'] | sheet=category_stats, rows=5, cols=12, columns=['dataset', 'category', 'train_normal', 'validation_normal', 'test_normal', 'test_logical_anomaly', 'test_structural_anomaly', 'logical_mask_files', 'structural_mask_files', 'matched_logical_masks', 'matched_structural_masks', 'total_original_images'] | sheet=defect_per_image, rows=993, cols=13, columns=['dataset', 'category', 'anomaly_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image'] | sheet=defect_categorywise, rows=5, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image'] | sheet=defect_anomalytype, rows=2, cols=7, columns=['anomaly_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image'] | sheet=category_anomalytype, rows=10, cols=8, columns=['category', 'anomaly_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: MVTec AD_exploration\bottle_original_mask_overlay_bbox.png
+Type: image
+Size: 2.06 MB
+Modified: 2026-07-07 08:46:21
+Detail: width=1800, height=3000, mode=RGBA
+
+File: MVTec AD_exploration\bottle_vs_cable_5x2_bbox_overlay.png
+Type: image
+Size: 3.95 MB
+Modified: 2026-07-07 08:46:19
+Detail: width=1200, height=3000, mode=RGBA
+
+File: MVTec AD_exploration\defect_size_categorywise.csv
+Type: csv
+Size: 1.71 KB
+Modified: 2026-07-07 12:40:53
+Detail: rows=15, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: MVTec AD_exploration\defect_size_categorywise_bar.png
+Type: image
+Size: 74.55 KB
+Modified: 2026-07-07 12:40:53
+Detail: width=1800, height=900, mode=RGBA
+
+File: MVTec AD_exploration\defect_size_per_image.csv
+Type: csv
+Size: 240.92 KB
+Modified: 2026-07-07 12:40:53
+Detail: rows=1258, cols=10, columns=['category', 'defect_type', 'image_path', 'mask_path', 'image_width', 'image_height', 'defect_area_pixels', 'image_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: MVTec AD_exploration\defect_size_subcategorywise.csv
+Type: csv
+Size: 8.14 KB
+Modified: 2026-07-07 12:40:53
+Detail: rows=73, cols=8, columns=['category', 'defect_type', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: MVTec AD_exploration\mvtec_ad_category_stats.csv
+Type: csv
+Size: 1.94 KB
+Modified: 2026-07-07 08:46:16
+Detail: rows=15, cols=8, columns=['category', 'train_good', 'test_good', 'test_defect', 'test_total', 'mask_total', 'total_images_without_masks', 'defect_type_counts']
+
+File: MVTec AD_exploration\mvtec_defect_size_per_image.csv
+Type: csv
+Size: 240.94 KB
+Modified: 2026-07-06 17:41:17
+Detail: rows=1258, cols=10, columns=['category', 'defect_type', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio_of_full_image', 'defect_area_percent_of_full_image']
+
+File: visa_exploration\visa_category_stats.csv
+Type: csv
+Size: 526 B
+Modified: 2026-07-07 13:15:46
+Detail: rows=12, cols=8, columns=['dataset', 'category', 'train_normal', 'train_anomaly', 'test_normal', 'test_anomaly', 'mask_count', 'total_images']
+
+File: visa_exploration\visa_defect_size_boxplot.png
+Type: image
+Size: 89.58 KB
+Modified: 2026-07-07 13:15:53
+Detail: width=1800, height=900, mode=RGBA
+
+File: visa_exploration\visa_defect_size_categorywise.csv
+Type: csv
+Size: 1.45 KB
+Modified: 2026-07-07 13:15:52
+Detail: rows=12, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
+
+File: visa_exploration\visa_defect_size_categorywise_bar.png
+Type: image
+Size: 71.42 KB
+Modified: 2026-07-07 13:15:53
+Detail: width=1800, height=900, mode=RGBA
+
+File: visa_exploration\visa_defect_size_per_image.csv
+Type: csv
+Size: 249.27 KB
+Modified: 2026-07-07 13:15:52
+Detail: rows=1200, cols=13, columns=['dataset', 'category', 'defect_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image']
+
+File: visa_exploration\visa_image_count_stacked_bar.png
+Type: image
+Size: 68.89 KB
+Modified: 2026-07-07 13:15:53
+Detail: width=1800, height=900, mode=RGBA
+
+File: visa_exploration\visa_statistics_report.xlsx
+Type: excel
+Size: 82.66 KB
+Modified: 2026-07-07 13:15:54
+Detail: sheet=category_stats, rows=12, cols=8, columns=['dataset', 'category', 'train_normal', 'train_anomaly', 'test_normal', 'test_anomaly', 'mask_count', 'total_images'] | sheet=defect_per_image, rows=1200, cols=13, columns=['dataset', 'category', 'defect_type', 'split', 'label', 'image_path', 'mask_path', 'image_width', 'image_height', 'image_area_pixels', 'defect_area_pixels', 'defect_area_ratio', 'defect_area_percent_of_full_image'] | sheet=defect_categorywise, rows=12, cols=7, columns=['category', 'defect_mask_count', 'avg_defect_area_percent_of_full_image', 'median_defect_area_percent_of_full_image', 'min_defect_area_percent_of_full_image', 'max_defect_area_percent_of_full_image', 'std_defect_area_percent_of_full_image']
