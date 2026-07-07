@@ -1,0 +1,4 @@
+﻿dataset,category,train_normal,test_normal,test_anomaly,mask_count,total_original_images
+BTAD,01,400,21,49,49,470
+BTAD,02,399,30,200,200,629
+BTAD,03,1000,400,41,41,1441

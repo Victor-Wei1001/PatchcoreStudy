@@ -1,0 +1,13 @@
+﻿dataset,category,train_normal,train_anomaly,test_normal,test_anomaly,mask_count,total_images
+VisA,candle,900,0,100,100,100,1100
+VisA,capsules,542,0,60,100,100,702
+VisA,cashew,450,0,50,100,100,600
+VisA,chewinggum,453,0,50,100,100,603
+VisA,fryum,450,0,50,100,100,600
+VisA,macaroni1,900,0,100,100,100,1100
+VisA,macaroni2,900,0,100,100,100,1100
+VisA,pcb1,904,0,100,100,100,1104
+VisA,pcb2,901,0,100,100,100,1101
+VisA,pcb3,905,0,101,100,100,1106
+VisA,pcb4,904,0,101,100,100,1105
+VisA,pipe_fryum,450,0,50,100,100,600

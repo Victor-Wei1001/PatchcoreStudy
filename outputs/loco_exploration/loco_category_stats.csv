@@ -1,0 +1,6 @@
+﻿dataset,category,train_normal,validation_normal,test_normal,test_logical_anomaly,test_structural_anomaly,logical_mask_files,structural_mask_files,matched_logical_masks,matched_structural_masks,total_original_images
+MVTec_LOCO_AD,breakfast_box,351,62,102,83,90,83,90,83,90,688
+MVTec_LOCO_AD,juice_bottle,335,54,94,142,94,154,95,142,94,719
+MVTec_LOCO_AD,pushpins,372,69,138,91,81,307,81,91,81,751
+MVTec_LOCO_AD,screw_bag,360,60,122,137,82,161,82,137,82,761
+MVTec_LOCO_AD,splicing_connectors,360,60,119,108,85,108,85,108,85,732

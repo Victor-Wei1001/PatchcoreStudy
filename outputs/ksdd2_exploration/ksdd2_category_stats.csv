@@ -1,0 +1,2 @@
+﻿dataset,category,train_normal,train_anomaly,test_normal,test_anomaly,total_original_images,gt_mask_file_count,defect_mask_count
+KolektorSDD2,Kolektor_surface,2085,246,894,110,3335,3335,356

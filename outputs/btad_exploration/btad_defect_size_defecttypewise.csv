@@ -1,0 +1,4 @@
+﻿category,defect_type,defect_mask_count,avg_defect_area_percent_of_full_image,median_defect_area_percent_of_full_image,min_defect_area_percent_of_full_image,max_defect_area_percent_of_full_image,std_defect_area_percent_of_full_image
+01,ko,49,4.652401147959184,2.3642578125,0.10722656250000001,13.6601953125,4.432454047706987
+02,ko,200,6.285134722222222,0.44138888888888894,0.0,66.72777777777777,10.394704294413843
+03,ko,41,2.223826219512195,2.07375,0.0,13.165,2.3740086567523884
