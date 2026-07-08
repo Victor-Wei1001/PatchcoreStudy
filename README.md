@@ -1,6 +1,6 @@
 # PatchCore Study
 
-This repository contains my MVTec AD dataset exploration code and generated results.
+This repository contains five defect datasets exploration code and generated results.
 
 ## Current Work
 
