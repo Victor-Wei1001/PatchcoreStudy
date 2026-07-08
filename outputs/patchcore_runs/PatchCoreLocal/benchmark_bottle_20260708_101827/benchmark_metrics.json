@@ -1,0 +1,50 @@
+{
+  "started_at": "2026-07-08T10:18:36",
+  "repo": "D:\\patchcore\\patchcore-inspection-main",
+  "data_root": "D:\\patchcore\\data\\mvtecAD",
+  "category": "bottle",
+  "torch_version": "2.4.1+cu124",
+  "cuda_available": true,
+  "cuda_version": "12.4",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "faiss_on_gpu": false,
+  "training": [
+    {
+      "dataset": "mvtec_bottle",
+      "num_images": 209,
+      "elapsed_seconds": 60.927,
+      "rss_start_mib": 1283.65,
+      "rss_end_mib": 1091.79,
+      "rss_delta_mib": -191.86,
+      "cuda_peak_allocated_mib": 1022.43,
+      "cuda_peak_reserved_mib": 1240.0
+    }
+  ],
+  "inference": [
+    {
+      "dataset": null,
+      "num_images": 83,
+      "elapsed_seconds": 25.471,
+      "seconds_per_image": 0.306877,
+      "cuda_peak_allocated_mib": 448.74,
+      "cuda_peak_reserved_mib": 514.0
+    }
+  ],
+  "losses": "PatchCore does not train with backpropagation loss; it builds a normal-feature memory bank from a pretrained backbone.",
+  "ended_at": "2026-07-08T10:20:34",
+  "total_elapsed_seconds": 118.336,
+  "run_folder": "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827",
+  "results_csv": "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\results.csv",
+  "trained_model_total_size_mib": 6.4,
+  "kept_visuals": [
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_000.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_001.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_002.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_003.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_004.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_005.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_broken_large_006.png",
+    "D:\\patchcore\\outputs\\patchcore_runs\\PatchCoreLocal\\benchmark_bottle_20260708_101827\\segmentation_images\\mvtec_bottle\\bottle_test_good_000.png"
+  ],
+  "official_command": "python D:\\patchcore\\patchcore-inspection-main\\bin\\run_patchcore.py --gpu 0 --seed 0 --save_patchcore_model --save_segmentation_images --log_group benchmark_bottle_20260708_101827 --log_project PatchCoreLocal D:\\patchcore\\outputs\\patchcore_runs patch_core -b wideresnet50 -le layer2 -le layer3 --pretrain_embed_dimension 1024 --target_embed_dimension 1024 --anomaly_scorer_num_nn 1 --patchsize 3 sampler -p 0.01 approx_greedy_coreset dataset --resize 256 --imagesize 224 --batch_size 2 --num_workers 0 -d bottle mvtec D:\\patchcore\\data\\mvtecAD"
+}

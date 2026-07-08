@@ -1,0 +1,3 @@
+cuda_peak_allocated_mib,cuda_peak_reserved_mib,dataset,elapsed_seconds,num_images,phase,rss_delta_mib,rss_end_mib,rss_start_mib,seconds_per_image
+1022.43,1240,mvtec_bottle,60.927,209,training,-191.86,1091.79,1283.65,
+448.74,514,,25.471,83,inference,,,,0.306877

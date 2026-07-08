@@ -1,0 +1,5 @@
+Row Names,instance_auroc,full_pixel_auroc,anomaly_pixel_auroc
+,,,
+mvtec_bottle,1,0.984468149,0.979075648
+,,,
+Mean,1,0.984468149,0.979075648

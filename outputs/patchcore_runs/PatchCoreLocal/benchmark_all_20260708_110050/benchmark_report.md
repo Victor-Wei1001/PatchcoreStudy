@@ -1,0 +1,168 @@
+# PatchCore Local Benchmark
+
+- Run folder: `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050`
+- GPU: `NVIDIA GeForce RTX 4060 Laptop GPU`
+- CUDA available: `True`
+- Total elapsed seconds: `1076.076`
+- Trained model total size MiB: `111.11`
+- Losses: `PatchCore does not train with backpropagation loss; it builds a normal-feature memory bank from a pretrained backbone.`
+- Results CSV: `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\results.csv`
+
+## Training
+
+- `mvtec_bottle`: 14.172s, CUDA peak allocated 1022.43 MiB, RSS delta -194.4 MiB
+- `mvtec_cable`: 19.905s, CUDA peak allocated 1079.12 MiB, RSS delta -403.82 MiB
+- `mvtec_capsule`: 19.891s, CUDA peak allocated 1059.44 MiB, RSS delta -423.16 MiB
+- `mvtec_carpet`: 54.776s, CUDA peak allocated 1280.55 MiB, RSS delta -383.88 MiB
+- `mvtec_grid`: 37.343s, CUDA peak allocated 1224.33 MiB, RSS delta -409.29 MiB
+- `mvtec_hazelnut`: 65.86s, CUDA peak allocated 1675.22 MiB, RSS delta -264.34 MiB
+- `mvtec_leather`: 38.381s, CUDA peak allocated 1150.07 MiB, RSS delta -399.46 MiB
+- `mvtec_metal_nut`: 30.768s, CUDA peak allocated 1065.8 MiB, RSS delta -417.93 MiB
+- `mvtec_pill`: 46.237s, CUDA peak allocated 1228.97 MiB, RSS delta -390.74 MiB
+- `mvtec_screw`: 45.676s, CUDA peak allocated 1421.71 MiB, RSS delta -350.51 MiB
+- `mvtec_tile`: 29.576s, CUDA peak allocated 1101.02 MiB, RSS delta -408.79 MiB
+- `mvtec_toothbrush`: 12.685s, CUDA peak allocated 493.57 MiB, RSS delta -275.68 MiB
+- `mvtec_transistor`: 42.206s, CUDA peak allocated 1036.2 MiB, RSS delta -376.65 MiB
+- `mvtec_wood`: 51.469s, CUDA peak allocated 1160.15 MiB, RSS delta -395.38 MiB
+- `mvtec_zipper`: 36.596s, CUDA peak allocated 1139.75 MiB, RSS delta -377.32 MiB
+
+## Inference
+
+- `None`: 5.406s total, 0.06513s/image, CUDA peak allocated 448.74 MiB
+- `None`: 14.811s total, 0.09874s/image, CUDA peak allocated 448.24 MiB
+- `None`: 25.961s total, 0.196676s/image, CUDA peak allocated 448.93 MiB
+- `None`: 26.058s total, 0.222716s/image, CUDA peak allocated 449.02 MiB
+- `None`: 10.396s total, 0.133284s/image, CUDA peak allocated 449.49 MiB
+- `None`: 22.279s total, 0.202534s/image, CUDA peak allocated 449.96 MiB
+- `None`: 11.436s total, 0.092228s/image, CUDA peak allocated 446.77 MiB
+- `None`: 20.586s total, 0.179013s/image, CUDA peak allocated 448.77 MiB
+- `None`: 27.857s total, 0.166808s/image, CUDA peak allocated 446.56 MiB
+- `None`: 27.064s total, 0.16915s/image, CUDA peak allocated 448.56 MiB
+- `None`: 17.46s total, 0.14923s/image, CUDA peak allocated 447.34 MiB
+- `None`: 9.874s total, 0.235098s/image, CUDA peak allocated 447.4 MiB
+- `None`: 23.543s total, 0.235426s/image, CUDA peak allocated 446.68 MiB
+- `None`: 18.332s total, 0.232053s/image, CUDA peak allocated 449.4 MiB
+- `None`: 28.373s total, 0.187902s/image, CUDA peak allocated 447.62 MiB
+
+## Visuals Kept
+
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_broken_large_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_bottle\bottle_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_bent_wire_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_cable\cable_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_crack_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_capsule\capsule_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_color_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_carpet\carpet_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_bent_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_grid\grid_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_crack_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_hazelnut\hazelnut_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_color_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_leather\leather_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_bent_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_metal_nut\metal_nut_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_color_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_pill\pill_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_screw\screw_test_manipulated_front_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_crack_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_tile\tile_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_defective_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_toothbrush\toothbrush_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_bent_lead_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_transistor\transistor_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_color_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_wood\wood_test_good_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_000.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_001.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_002.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_003.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_004.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_005.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_broken_teeth_006.png`
+- `D:\patchcore\outputs\patchcore_runs\PatchCoreLocal\benchmark_all_20260708_110050\segmentation_images\mvtec_zipper\zipper_test_good_000.png`
