@@ -1,0 +1,410 @@
+{
+  "dataset": "VisA",
+  "data_root": "D:\\patchcore\\data\\VisA",
+  "split_csv": "D:\\patchcore\\data\\VisA\\split_csv\\1cls.csv",
+  "categories": [
+    "candle",
+    "capsules",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "seed": 0,
+  "resize": 256,
+  "imagesize": 224,
+  "coreset": 0.01,
+  "backbone": "wideresnet50",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "device": "cuda:0",
+  "cuda_available": true,
+  "total_elapsed_seconds": 1208.647,
+  "metrics_note": "This runner reports the same three AUROC metrics as the existing local MVTec benchmark; PRO is not included.",
+  "results": [
+    {
+      "dataset_name": "visa_candle",
+      "instance_auroc": 0.9879,
+      "full_pixel_auroc": 0.9892879747122232,
+      "anomaly_pixel_auroc": 0.9819225379681825,
+      "train_images": 900,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_capsules",
+      "instance_auroc": 0.7484999999999999,
+      "full_pixel_auroc": 0.9846967168589433,
+      "anomaly_pixel_auroc": 0.9834887966116262,
+      "train_images": 542,
+      "test_normal_images": 60,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_cashew",
+      "instance_auroc": 0.9742000000000001,
+      "full_pixel_auroc": 0.9824446312900692,
+      "anomaly_pixel_auroc": 0.976416166161661,
+      "train_images": 450,
+      "test_normal_images": 50,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_chewinggum",
+      "instance_auroc": 0.9878,
+      "full_pixel_auroc": 0.9843162611120271,
+      "anomaly_pixel_auroc": 0.9782310268169896,
+      "train_images": 453,
+      "test_normal_images": 50,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_fryum",
+      "instance_auroc": 0.9604,
+      "full_pixel_auroc": 0.9059778139297728,
+      "anomaly_pixel_auroc": 0.8873741413022049,
+      "train_images": 450,
+      "test_normal_images": 50,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_macaroni1",
+      "instance_auroc": 0.9710000000000001,
+      "full_pixel_auroc": 0.9936871507983198,
+      "anomaly_pixel_auroc": 0.9899525860237529,
+      "train_images": 900,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_macaroni2",
+      "instance_auroc": 0.7701999999999999,
+      "full_pixel_auroc": 0.9765440749819024,
+      "anomaly_pixel_auroc": 0.9730858227848186,
+      "train_images": 900,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_pcb1",
+      "instance_auroc": 0.9876,
+      "full_pixel_auroc": 0.9963751556676993,
+      "anomaly_pixel_auroc": 0.9940483907763621,
+      "train_images": 904,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_pcb2",
+      "instance_auroc": 0.9716999999999999,
+      "full_pixel_auroc": 0.9827666298462313,
+      "anomaly_pixel_auroc": 0.9700245203947391,
+      "train_images": 901,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_pcb3",
+      "instance_auroc": 0.9843564356435643,
+      "full_pixel_auroc": 0.9901303402681839,
+      "anomaly_pixel_auroc": 0.9820297933906598,
+      "train_images": 905,
+      "test_normal_images": 101,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_pcb4",
+      "instance_auroc": 0.9966336633663366,
+      "full_pixel_auroc": 0.9749454000431812,
+      "anomaly_pixel_auroc": 0.9533634998883619,
+      "train_images": 904,
+      "test_normal_images": 101,
+      "test_anomaly_images": 100
+    },
+    {
+      "dataset_name": "visa_pipe_fryum",
+      "instance_auroc": 0.999,
+      "full_pixel_auroc": 0.9887711475776049,
+      "anomaly_pixel_auroc": 0.9837482363320043,
+      "train_images": 450,
+      "test_normal_images": 50,
+      "test_anomaly_images": 100
+    }
+  ],
+  "benchmark_rows": [
+    {
+      "phase": "training",
+      "dataset": "visa_candle",
+      "num_images": 900,
+      "elapsed_seconds": 150.423,
+      "rss_end_mib": 1597.37
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_candle",
+      "num_images": 200,
+      "elapsed_seconds": 48.994,
+      "seconds_per_image": 0.244971
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_capsules",
+      "num_images": 542,
+      "elapsed_seconds": 47.454,
+      "rss_end_mib": 1512.52
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_capsules",
+      "num_images": 160,
+      "elapsed_seconds": 14.394,
+      "seconds_per_image": 0.089965
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_cashew",
+      "num_images": 450,
+      "elapsed_seconds": 32.319,
+      "rss_end_mib": 1481.95
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_cashew",
+      "num_images": 150,
+      "elapsed_seconds": 10.042,
+      "seconds_per_image": 0.066947
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_chewinggum",
+      "num_images": 453,
+      "elapsed_seconds": 31.823,
+      "rss_end_mib": 1503.83
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_chewinggum",
+      "num_images": 150,
+      "elapsed_seconds": 10.92,
+      "seconds_per_image": 0.072798
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_fryum",
+      "num_images": 450,
+      "elapsed_seconds": 32.278,
+      "rss_end_mib": 1546.67
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_fryum",
+      "num_images": 150,
+      "elapsed_seconds": 10.408,
+      "seconds_per_image": 0.069384
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_macaroni1",
+      "num_images": 900,
+      "elapsed_seconds": 76.794,
+      "rss_end_mib": 1708.73
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_macaroni1",
+      "num_images": 200,
+      "elapsed_seconds": 17.316,
+      "seconds_per_image": 0.086578
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_macaroni2",
+      "num_images": 900,
+      "elapsed_seconds": 78.406,
+      "rss_end_mib": 1733.43
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_macaroni2",
+      "num_images": 200,
+      "elapsed_seconds": 16.491,
+      "seconds_per_image": 0.082455
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_pcb1",
+      "num_images": 904,
+      "elapsed_seconds": 81.287,
+      "rss_end_mib": 1767.77
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_pcb1",
+      "num_images": 200,
+      "elapsed_seconds": 16.71,
+      "seconds_per_image": 0.083548
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_pcb2",
+      "num_images": 901,
+      "elapsed_seconds": 78.624,
+      "rss_end_mib": 1800.69
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_pcb2",
+      "num_images": 200,
+      "elapsed_seconds": 16.437,
+      "seconds_per_image": 0.082185
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_pcb3",
+      "num_images": 905,
+      "elapsed_seconds": 77.535,
+      "rss_end_mib": 1841.09
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_pcb3",
+      "num_images": 201,
+      "elapsed_seconds": 17.182,
+      "seconds_per_image": 0.085483
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_pcb4",
+      "num_images": 904,
+      "elapsed_seconds": 79.101,
+      "rss_end_mib": 1847.23
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_pcb4",
+      "num_images": 201,
+      "elapsed_seconds": 16.196,
+      "seconds_per_image": 0.080576
+    },
+    {
+      "phase": "training",
+      "dataset": "visa_pipe_fryum",
+      "num_images": 450,
+      "elapsed_seconds": 72.096,
+      "rss_end_mib": 1348.46
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_pipe_fryum",
+      "num_images": 150,
+      "elapsed_seconds": 17.356,
+      "seconds_per_image": 0.115705
+    }
+  ],
+  "kept_visuals": [
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\0790.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_candle\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\062.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_capsules\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\023.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_cashew\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\352.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_chewinggum\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\023.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_fryum\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\0790.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni1\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\0790.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_macaroni2\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\0107.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb1\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\0107.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb2\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\0107.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb3\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\0107.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pcb4\\segmentation_images\\006.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\023.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\002.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\003.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\004.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\005.JPG",
+    "D:\\patchcore\\VisaAtest\\benchmark_visa_20260713_110839\\visuals\\visa_pipe_fryum\\segmentation_images\\006.JPG"
+  ]
+}

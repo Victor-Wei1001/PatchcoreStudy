@@ -1,0 +1,54 @@
+{
+  "dataset": "VisA",
+  "data_root": "D:\\patchcore\\data\\VisA",
+  "split_csv": "D:\\patchcore\\data\\VisA\\split_csv\\1cls.csv",
+  "categories": [
+    "candle"
+  ],
+  "seed": 0,
+  "resize": 256,
+  "imagesize": 224,
+  "coreset": 0.01,
+  "backbone": "wideresnet50",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "device": "cuda:0",
+  "cuda_available": true,
+  "total_elapsed_seconds": 145.332,
+  "metrics_note": "This runner reports the same three AUROC metrics as the existing local MVTec benchmark; PRO is not included.",
+  "results": [
+    {
+      "dataset_name": "visa_candle",
+      "instance_auroc": 0.9879,
+      "full_pixel_auroc": 0.9892879747122232,
+      "anomaly_pixel_auroc": 0.9819225379681825,
+      "train_images": 900,
+      "test_normal_images": 100,
+      "test_anomaly_images": 100
+    }
+  ],
+  "benchmark_rows": [
+    {
+      "phase": "training",
+      "dataset": "visa_candle",
+      "num_images": 900,
+      "elapsed_seconds": 116.501,
+      "rss_end_mib": 1585.8
+    },
+    {
+      "phase": "inference",
+      "dataset": "visa_candle",
+      "num_images": 200,
+      "elapsed_seconds": 15.338,
+      "seconds_per_image": 0.076689
+    }
+  ],
+  "kept_visuals": [
+    "D:\\patchcore\\VisaAtest\\smoke\\benchmark_visa_20260713_110545\\visuals\\visa_candle\\segmentation_images\\0790.JPG",
+    "D:\\patchcore\\VisaAtest\\smoke\\benchmark_visa_20260713_110545\\visuals\\visa_candle\\segmentation_images\\000.JPG",
+    "D:\\patchcore\\VisaAtest\\smoke\\benchmark_visa_20260713_110545\\visuals\\visa_candle\\segmentation_images\\001.JPG",
+    "D:\\patchcore\\VisaAtest\\smoke\\benchmark_visa_20260713_110545\\visuals\\visa_candle\\segmentation_images\\002.JPG"
+  ]
+}

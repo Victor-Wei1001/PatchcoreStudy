@@ -1,0 +1,3 @@
+dataset,elapsed_seconds,num_images,phase,rss_end_mib,seconds_per_image
+visa_candle,116.501,900,training,1585.8,
+visa_candle,15.338,200,inference,,0.076689
