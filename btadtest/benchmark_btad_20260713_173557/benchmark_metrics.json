@@ -1,0 +1,121 @@
+{
+  "dataset": "BTAD",
+  "data_root": "D:\\patchcore\\data\\btad",
+  "categories": [
+    "01",
+    "02",
+    "03"
+  ],
+  "seed": 0,
+  "resize": 256,
+  "imagesize": 224,
+  "coreset": 0.01,
+  "backbone": "wideresnet50",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "device": "cuda:0",
+  "cuda_available": true,
+  "total_elapsed_seconds": 835.386,
+  "metrics_note": "Image AUROC, full pixel AUROC and anomaly-only pixel AUROC. PRO is not included.",
+  "results": [
+    {
+      "dataset_name": "btad_01",
+      "image_auroc": 0.9786200194363458,
+      "full_pixel_auroc": 0.9667056006933339,
+      "anomaly_pixel_auroc": 0.9513835580376558,
+      "train_images": 400,
+      "test_normal_images": 21,
+      "test_anomaly_images": 49
+    },
+    {
+      "dataset_name": "btad_02",
+      "image_auroc": 0.8165000000000001,
+      "full_pixel_auroc": 0.9534288213873713,
+      "anomaly_pixel_auroc": 0.9450887242392416,
+      "train_images": 399,
+      "test_normal_images": 30,
+      "test_anomaly_images": 200
+    },
+    {
+      "dataset_name": "btad_03",
+      "image_auroc": 0.9994512195121951,
+      "full_pixel_auroc": 0.9907963502165158,
+      "anomaly_pixel_auroc": 0.9236404675973069,
+      "train_images": 1000,
+      "test_normal_images": 400,
+      "test_anomaly_images": 41
+    }
+  ],
+  "benchmark_rows": [
+    {
+      "phase": "training",
+      "dataset": "btad_01",
+      "num_images": 400,
+      "elapsed_seconds": 108.668,
+      "rss_end_mib": 1321.27
+    },
+    {
+      "phase": "inference",
+      "dataset": "btad_01",
+      "num_images": 70,
+      "elapsed_seconds": 23.426,
+      "seconds_per_image": 0.334655
+    },
+    {
+      "phase": "training",
+      "dataset": "btad_02",
+      "num_images": 399,
+      "elapsed_seconds": 90.876,
+      "rss_end_mib": 1744.23
+    },
+    {
+      "phase": "inference",
+      "dataset": "btad_02",
+      "num_images": 230,
+      "elapsed_seconds": 64.985,
+      "seconds_per_image": 0.282543
+    },
+    {
+      "phase": "training",
+      "dataset": "btad_03",
+      "num_images": 1000,
+      "elapsed_seconds": 232.344,
+      "rss_end_mib": 2327.14
+    },
+    {
+      "phase": "inference",
+      "dataset": "btad_03",
+      "num_images": 441,
+      "elapsed_seconds": 152.997,
+      "seconds_per_image": 0.346932
+    }
+  ],
+  "kept_visuals": [
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ok_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0001.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0002.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0003.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0004.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0005.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_01\\segmentation_images\\ko_0006.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ok_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0001.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0002.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0003.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0004.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0005.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_02\\segmentation_images\\ko_0006.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ok_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0000.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0001.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0002.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0003.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0004.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0005.png",
+    "D:\\patchcore\\btadtest\\benchmark_btad_20260713_173557\\visuals\\btad_03\\segmentation_images\\ko_0006.png"
+  ]
+}

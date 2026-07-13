@@ -1,0 +1,7 @@
+dataset,elapsed_seconds,num_images,phase,rss_end_mib,seconds_per_image
+btad_01,108.668,400,training,1321.27,
+btad_01,23.426,70,inference,,0.334655
+btad_02,90.876,399,training,1744.23,
+btad_02,64.985,230,inference,,0.282543
+btad_03,232.344,1000,training,2327.14,
+btad_03,152.997,441,inference,,0.346932
