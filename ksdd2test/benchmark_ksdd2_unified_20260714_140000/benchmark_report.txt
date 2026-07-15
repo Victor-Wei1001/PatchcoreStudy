@@ -1,0 +1,55 @@
+KolektorSDD2 PatchCore benchmark
+run_folder: D:\patchcore\ksdd2test\benchmark_ksdd2_unified_20260714_140000
+data_root: D:\patchcore\data\KolektorSDD2
+device: cuda:0
+gpu_name: NVIDIA GeForce RTX 4060 Laptop GPU
+train_valid_images: 2331
+train_normal_images: 2085
+train_defect_images: 246
+train_skipped_images: 1
+training_images_used: 2085
+test_valid_images: 1004
+test_good_images: 894
+test_defect_images: 110
+test_skipped_images: 0
+total_elapsed_seconds: 3122.946
+total_train_seconds: 2717.516
+total_inference_seconds: 333.216
+weighted_average_inference_seconds_per_image: 0.331888
+gpu_average_utilization_percent: 78.43
+gpu_peak_utilization_percent: 100.0
+gpu_average_memory_used_mib: 7409.61
+gpu_peak_memory_used_mib: 7916.0
+cuda_peak_allocated_mib: 7716.58
+cuda_peak_reserved_mib: 7956.0
+gpu_sample_count: 1654
+
+{
+  "category": "Kolektor_surface",
+  "train_valid_images": 2331,
+  "train_normal_images": 2085,
+  "train_defect_images": 246,
+  "train_skipped_images": 1,
+  "training_images_used": 2085,
+  "test_valid_images": 1004,
+  "test_good_images": 894,
+  "test_defect_images": 110,
+  "test_skipped_images": 0,
+  "train_seconds": 2717.5159499,
+  "inference_seconds": 333.21604720000005,
+  "inference_seconds_per_image": 0.3318884932270917,
+  "rss_end_mib": 3040.09,
+  "cuda_training_peak_allocated_mib": 7716.58,
+  "cuda_training_peak_reserved_mib": 7956.0,
+  "cuda_inference_peak_allocated_mib": 448.74,
+  "cuda_inference_peak_reserved_mib": 7956.0,
+  "gpu_average_utilization_percent": 78.43,
+  "gpu_peak_utilization_percent": 100.0,
+  "gpu_peak_memory_used_mib": 7916.0,
+  "gpu_sample_count": 1654,
+  "image_auroc": 0.7517897091722594,
+  "full_pixel_auroc": 0.9608153848313649,
+  "anomaly_only_pixel_auroc": 0.9307844007785009,
+  "defect_image_auroc": 0.7517897091722594,
+  "defect_pixel_auroc": 0.9458878925208458
+}

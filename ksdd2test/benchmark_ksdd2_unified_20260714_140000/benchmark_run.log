@@ -1,0 +1,4 @@
+2026-07-14 14:25:27,448 WARNING Skipping 1 SDD2 images without a matching GT mask in D:\patchcore\data\KolektorSDD2\train: 10301 (copy).png
+2026-07-14 14:25:33,807 INFO Dataset: train valid=2331 normal=2085 defect=246 skipped=1; memory=2085; test valid=1004 normal=894 defect=110 skipped=0
+2026-07-14 15:17:12,553 INFO Saving PatchCore data.
+2026-07-14 15:17:15,074 INFO Benchmark complete: D:\patchcore\ksdd2test\benchmark_ksdd2_unified_20260714_140000

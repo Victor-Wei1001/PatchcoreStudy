@@ -1,0 +1,74 @@
+KolektorSDD2 PatchCore benchmark
+run_folder: D:\patchcore\mvteclocotest\benchmark_ksdd2_20260714_120000
+data_root: D:\patchcore\data\KolektorSDD2
+device: cuda:0
+gpu_name: NVIDIA GeForce RTX 4060 Laptop GPU
+train_valid_images: 2331
+train_normal_images: 2085
+train_defect_images: 246
+train_skipped_images: 1
+training_images_used: 1876
+validation_images: 209
+test_valid_images: 1004
+test_good_images: 894
+test_defect_images: 110
+test_skipped_images: 0
+total_elapsed_seconds: 3040.352
+total_train_seconds: 2282.632
+total_validation_seconds: 82.057
+total_inference_seconds: 399.513
+weighted_average_inference_seconds_per_image: 0.397922
+gpu_average_utilization_percent: 65.47
+gpu_peak_utilization_percent: 100.0
+gpu_average_memory_used_mib: 7090.29
+gpu_peak_memory_used_mib: 7926.0
+cuda_peak_allocated_mib: 6978.88
+cuda_peak_reserved_mib: 7602.0
+gpu_sample_count: 2386
+
+{
+  "category": "Kolektor_surface",
+  "train_valid_images": 2331,
+  "train_normal_images": 2085,
+  "train_defect_images": 246,
+  "train_skipped_images": 1,
+  "training_images_used": 1876,
+  "validation_images": 209,
+  "test_valid_images": 1004,
+  "test_good_images": 894,
+  "test_defect_images": 110,
+  "test_skipped_images": 0,
+  "train_val_split": 0.9,
+  "train_seconds": 2282.6321657,
+  "validation_seconds": 82.05714209999996,
+  "inference_seconds": 399.51339310000003,
+  "inference_seconds_per_image": 0.3979217062749004,
+  "rss_end_mib": 3627.36,
+  "cuda_training_peak_allocated_mib": 6978.88,
+  "cuda_training_peak_reserved_mib": 7602.0,
+  "cuda_validation_peak_allocated_mib": 958.52,
+  "cuda_validation_peak_reserved_mib": 7602.0,
+  "cuda_inference_peak_allocated_mib": 957.65,
+  "cuda_inference_peak_reserved_mib": 7602.0,
+  "gpu_average_utilization_percent": 65.47,
+  "gpu_peak_utilization_percent": 100.0,
+  "gpu_peak_memory_used_mib": 7926.0,
+  "gpu_sample_count": 2386,
+  "image_auroc": 0.7635245068130975,
+  "full_pixel_auroc": 0.9596655226027637,
+  "_image_auroc": 0.7635245068130975,
+  "_pixel_auroc": 0.9448244107315374,
+  "anomaly_only_pixel_auroc": 0.929957376138136,
+  "threshold": 2.2595691680908208,
+  "validation_max_score": 2.2595691680908203,
+  "validation_mean_score": 1.759338140487671,
+  "validation_false_positive_rate": 0.0,
+  "test_true_positive": 45,
+  "test_true_negative": 884,
+  "test_false_positive": 10,
+  "test_false_negative": 65,
+  "test_precision": 0.8181818181818182,
+  "test_recall": 0.4090909090909091,
+  "test_f1": 0.5454545454545455,
+  "test_accuracy": 0.9252988047808764
+}

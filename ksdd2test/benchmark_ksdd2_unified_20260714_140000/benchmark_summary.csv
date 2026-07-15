@@ -1,0 +1,3 @@
+﻿category,cuda_peak_allocated_mib,cuda_peak_reserved_mib,gpu_average_utilization_percent,gpu_peak_memory_used_mib,gpu_peak_utilization_percent,images,phase,rss_end_mib,seconds,seconds_per_image
+Kolektor_surface,7716.58,7956.0,,,,2085,training,3040.09,2717.5159499,1.3033649639808154
+Kolektor_surface,448.74,7956.0,78.43,7916.0,100.0,1004,inference,3040.09,333.21604720000005,0.3318884932270917
